@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+.cross_icon{
+    float: right;
+    padding: 13px 13px 0 0;
+}
+
+.title_form{
+    padding: 52px 0 0 172px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.span_title_form{
+    font-size: 20px;
+    font-weight: 500;
+    color: #46A358;
+}
+
+.text_registration{
+    padding: 40px 0 0 100px;
+}
+
+.input_form{
+    margin: 14px 0 0 100px;
+    padding: 12px 0 12px 14px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+
+.btn_registration{
+    margin: 41px 0 0 100px;
+    padding: 16px 118px 13px 119px;
+    width: 316px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #46A358;
+    border-radius: 5px;
+    border:none;
+}
+
+.section_offer{
+    margin: 36px 0 0 100px;
+}
+
+.text_offer{
+    display: inline-block;
+    color: #3D3D3D;
+}
+
+.broken_line{
+    width: 102px;
+    display: inline-block;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 3px;
+}
+
+.socials{
+    width: 316px;
+    margin: 27px 0 0 100px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+}
+
+.socials_link{
+    text-decoration: none;
+    color: #727272;
+}
+
+.icon_google{
+    padding: 10px 211px 10px 69px;
+    position: absolute;
+}
+
+.icon_facebook{
+    padding: 11px 216px 9px 64px;
+    position: absolute;
+}
+
+.text_google{
+    padding: 13px 68px 11px 98px;
+}
+
+.text_facebook{
+    padding: 14px 63px 10px 88px;
+}
+
+.background_line{
+    margin: 40px 0 0 0;
+    padding-bottom: 10px;
+    background: #46A358;
+    border: none;
+}
