@@ -1,36 +1,37 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+div {
     max-width: 500px;
     margin: auto;
 }
 
-.cross_icon{
+.cross_icon {
     float: right;
     padding: 13px 13px 0 0;
 }
 
-.title_form{
+.title_form {
     padding: 52px 0 0 172px;
     font-size: 20px;
     font-weight: 500;
     color: #3D3D3D;
 }
 
-.span_title_form{
+.span_title_form {
     font-size: 20px;
     font-weight: 500;
     color: #46A358;
 }
 
-.text_registration{
+.text_registration {
     padding: 40px 0 0 100px;
 }
 
-.input_form{
+.input_form {
     margin: 14px 0 0 100px;
     padding: 12px 0 12px 14px;
     width: 300px;
@@ -38,7 +39,7 @@ body{
     border: 1px solid #EAEAEA;
 }
 
-.btn_registration{
+.btn_registration {
     margin: 41px 0 0 100px;
     padding: 16px 118px 13px 119px;
     width: 316px;
@@ -47,58 +48,184 @@ body{
     color: #FFFFFF;
     background: #46A358;
     border-radius: 5px;
-    border:none;
+    border: none;
 }
 
-.section_offer{
+.section_offer {
     margin: 36px 0 0 100px;
 }
 
-.text_offer{
+.text_offer {
     display: inline-block;
     color: #3D3D3D;
 }
 
-.broken_line{
+.broken_line {
     width: 102px;
     display: inline-block;
     border: 1px solid #EAEAEA;
     margin-bottom: 3px;
 }
 
-.socials{
+.socials {
     width: 316px;
     margin: 27px 0 0 100px;
     border: 1px solid #EAEAEA;
     border-radius: 5px;
 }
 
-.socials_link{
+.socials_link {
     text-decoration: none;
     color: #727272;
 }
 
-.icon_google{
+.icon_google {
     padding: 10px 211px 10px 69px;
     position: absolute;
 }
 
-.icon_facebook{
+.icon_facebook {
     padding: 11px 216px 9px 64px;
     position: absolute;
 }
 
-.text_google{
+.text_google {
     padding: 13px 68px 11px 98px;
 }
 
-.text_facebook{
+.text_facebook {
     padding: 14px 63px 10px 88px;
 }
 
-.background_line{
+.background_line {
     margin: 40px 0 0 0;
     padding-bottom: 10px;
     background: #46A358;
     border: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 12px;
+    padding-top: 30px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+header nav ul li a {
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+header .login {
+    border-radius: 6px;
+    background: #46A358;
+    padding: 7px 17px;
+    display: flex;
+    align-items: center;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .login svg {
+    margin-right: 4px;
+}
+
+header .login svg path {
+    transition: 0.4s;
+}
+
+header .login:hover {
+    background-color: white;
+    color: #46A358;
+}
+
+header .login:hover svg path {
+    stroke: #46A358;
+}
+
+article {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.welcome {
+    font-family: "Cera Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 7px;
+    margin-left: 3px;
+}
+
+.main_title {
+    font-family: "Cera Pro", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 5px;
+}
+
+.planet{
+    font-family: "Cera Pro", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+.order {
+    font-family: "Cera Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 3px;
+    margin-bottom: 44px;
+}
+
+.shop_now {
+    font-family: "Cera Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #46A358;
+    border-radius: 6px;
+    padding: 10px 26px;
+    margin-left: 2px;
 }
