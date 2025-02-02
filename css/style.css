@@ -1,10 +1,62 @@
+@font-face {
+    font-family: 'fontspring_demo_-_cera_proRg';
+    src: url('../fonts/fontspring-demo-cerapro-regular-webfont.eot');
+    src: url('../fonts/fontspring-demo-cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontspring-demo-cerapro-regular-webfont.woff2') format('woff2'),
+        url('../fonts/fontspring-demo-cerapro-regular-webfont.woff') format('woff'),
+        url('../fonts/fontspring-demo-cerapro-regular-webfont.ttf') format('truetype'),
+        url('../fonts/fontspring-demo-cerapro-regular-webfont.svg#fontspring_demo_-_cera_proRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cera_promedium';
+    src: url('../fonts/fontspring-demo-cerapro-medium-webfont.eot');
+    src: url('../fonts/fontspring-demo-cerapro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontspring-demo-cerapro-medium-webfont.woff2') format('woff2'),
+        url('../fonts/fontspring-demo-cerapro-medium-webfont.woff') format('woff'),
+        url('../fonts/fontspring-demo-cerapro-medium-webfont.ttf') format('truetype'),
+        url('../fonts/fontspring-demo-cerapro-medium-webfont.svg#cera_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fontspring_demo_-_cera_proBd';
+    src: url('../fonts/fontspring-demo-cerapro-bold-webfont.eot');
+    src: url('../fonts/fontspring-demo-cerapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontspring-demo-cerapro-bold-webfont.woff2') format('woff2'),
+        url('../fonts/fontspring-demo-cerapro-bold-webfont.woff') format('woff'),
+        url('../fonts/fontspring-demo-cerapro-bold-webfont.ttf') format('truetype'),
+        url('../fonts/fontspring-demo-cerapro-bold-webfont.svg#fontspring_demo_-_cera_proBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cera_problack';
+    src: url('../fonts/fontspring-demo-cerapro-black-webfont.eot');
+    src: url('../fonts/fontspring-demo-cerapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/fontspring-demo-cerapro-black-webfont.woff2') format('woff2'),
+        url('../fonts/fontspring-demo-cerapro-black-webfont.woff') format('woff'),
+        url('../fonts/fontspring-demo-cerapro-black-webfont.ttf') format('truetype'),
+        url('../fonts/fontspring-demo-cerapro-black-webfont.svg#cera_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-div {
+.container_registration {
     max-width: 500px;
     margin: auto;
 }
@@ -104,12 +156,23 @@ div {
     border: none;
 }
 
-.container {
+.container_header {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+    padding-bottom: 18px;
+}
+
+.container_main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
 }
 
 header {
@@ -125,7 +188,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -138,7 +201,7 @@ header .login {
     padding: 7px 17px;
     display: flex;
     align-items: center;
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_promedium', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -162,13 +225,24 @@ header .login:hover svg path {
     stroke: #46A358;
 }
 
+header nav li a:hover {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
 article {
+    max-width: 600px;
     padding-left: 40px;
     margin-bottom: 20px;
 }
 
 .welcome {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_promedium', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -181,7 +255,7 @@ article {
 }
 
 .main_title {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_problack', sans-serif;
     font-size: 70px;
     font-weight: 900;
     line-height: 70px;
@@ -191,8 +265,8 @@ article {
     margin-bottom: 5px;
 }
 
-.planet{
-    font-family: "Cera Pro", sans-serif;
+.planet {
+    font-family: 'cera_problack', sans-serif;
     font-size: 70px;
     font-weight: 900;
     line-height: 70px;
@@ -203,7 +277,7 @@ article {
 }
 
 .order {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -215,7 +289,7 @@ article {
 }
 
 .shop_now {
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -228,4 +302,218 @@ article {
     border-radius: 6px;
     padding: 10px 26px;
     margin-left: 2px;
+}
+
+main .shop_now:hover {
+    background-color: white;
+    color: #46A358;
+}
+
+.banner {
+    margin-bottom: 26px;
+}
+
+.menu {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.container_categories {
+    width: 310px;
+    background: #fbfbfb;
+}
+
+.categories {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 14px 0px 0px 18px;
+}
+
+main .container_categories ul li a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 37px 0px 0px 30px;
+}
+
+main .container_categories ul {
+    padding-bottom: 377px;
+}
+
+main .container_categories ul a:hover {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+.container_plants {
+    width: 840px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+main .container_plants nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+main .container_plants ul li a {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+main .container_plants ul a:hover {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.default_sorting {
+    padding-right: 5px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.assortment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+main .container_plants img {
+    height: 310px;
+    padding-bottom: 30px;
+}
+
+main .container_plants .assortment p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 6px;
+}
+
+main .container_plants .assortment span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+main .container_plants .assortment div {
+    background: #fbfbfb;
+}
+
+.assortment_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+main .container_plants .assortment_1 p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 6px;
+}
+
+main .container_plants .assortment_1 span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+main .container_plants .assortment_1 div {
+    background: #fbfbfb;
+}
+
+.assortment_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container_plants .assortment_2 p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 6px;
+}
+
+main .container_plants .assortment_2 span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #46A358;
+}
+
+main .container_plants .assortment_2 div {
+    background: #fbfbfb;
 }
