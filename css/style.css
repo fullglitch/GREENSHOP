@@ -318,7 +318,7 @@ main .shop_now:hover {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
+    margin-bottom: 94px;
 }
 
 .container_categories {
@@ -428,6 +428,7 @@ main .container_plants ul a:hover {
 }
 
 main .container_plants img {
+    width: 250px;
     height: 310px;
     padding-bottom: 30px;
 }
@@ -506,6 +507,250 @@ main .container_plants .assortment_2 span {
     color: #46A358;
 }
 
-main .container_plants{
+main .container_plants .assortment div {
     background: #FBFBFB;
+}
+
+main .container_plants .assortment_1 div {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_2 div {
+    background: #FBFBFB;
+}
+
+.blog {
+    width: 1200px;
+    margin: auto;
+}
+
+.container_offer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+
+.succulents {
+    width: 586px;
+    background: #fbfbfb;
+}
+
+.trends {
+    width: 586px;
+    background: #fbfbfb;
+}
+
+main .container_offer .succulents {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container_offer .succulents img {
+    width: 285px;
+    height: 290px;
+}
+
+main .container_offer .succulents h3 {
+    margin: 89px 30px 9px 119px;
+    font-family: 'cera_problack', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+}
+
+main .container_offer .succulents p {
+    margin: 0px 30px 25px 0px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+}
+
+main .container_offer .succulents a {
+    border-radius: 6px;
+    width: 140px;
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    background: #46a358;
+    text-decoration: none;
+    padding: 11px 47px 9px 28px;
+    float: right;
+}
+
+main .container_offer .succulents a svg {
+    position: absolute;
+    padding: 2px 0px 0px 2px;
+}
+
+main .container_offer .trends {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container_offer .trends img {
+    width: 285px;
+    height: 290px;
+}
+
+main .container_offer .trends h3 {
+    margin: 89px 30px 9px 116px;
+    font-family: 'cera_problack', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+}
+
+main .container_offer .trends p {
+    margin: 0px 30px 25px 0px;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+}
+
+main .container_offer .trends a {
+    border-radius: 6px;
+    width: 140px;
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    background: #46a358;
+    text-decoration: none;
+    padding: 11px 47px 9px 28px;
+    float: right;
+}
+
+main .container_offer .trends a svg {
+    position: absolute;
+    padding: 2px 0px 0px 2px;
+}
+
+main .container_offer svg path {
+    transition: 0.4s;
+}
+
+main .container_offer a:hover {
+    background-color: white;
+    color: #46A358;
+}
+
+main .container_offer a:hover svg path {
+    stroke: #46A358;
+}
+
+.find_btn {
+    margin-right: 30px;
+}
+
+.find_btn_1 {
+    margin-right: 30px;
+}
+
+main .container_blog_posts {
+    margin-bottom: 100px;
+}
+
+main .container_blog_posts h2 {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+
+main .container_blog_posts p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .container_blog_posts .cards div {
+    width: 265px;
+    margin-bottom: 9px;
+}
+
+main .container_blog_posts .cards span {
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin: 0px 31px 4px 15px;
+}
+
+main .container_blog_posts .cards h3 {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    margin: 0px 53px 4px 15px;
+}
+
+main .container_blog_posts .cards p {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin: 0px 11px 9px 15px;
+    text-align: left;
+}
+
+main .container_blog_posts .cards a {
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin: 0px 160px 13px 15px;
+}
+
+main .container_blog_posts .cards a svg {
+    position: absolute;
+    padding: 2px 0px 0px 3px;
+}
+
+main .container_blog_posts svg path {
+    transition: 0.4s;
+}
+
+main .container_blog_posts a:hover {
+    background-color: white;
+    color: #46A358;
+}
+
+main .container_blog_posts a:hover svg path {
+    stroke: #46A358;
+}
+
+main .container_blog_posts .cards div {
+    background: #fbfbfb;
 }
