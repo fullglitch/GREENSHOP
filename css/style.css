@@ -313,8 +313,8 @@ main .shop_now:hover {
     margin-bottom: 26px;
 }
 
-.menu {
-    width: 1200px;
+.container_catalog{
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -507,24 +507,45 @@ main .container_plants .assortment_2 span {
     color: #46A358;
 }
 
-main .container_plants .assortment div {
+main .container_plants .assortment .barberton_daisy {
     background: #FBFBFB;
 }
 
-main .container_plants .assortment_1 div {
+main .container_plants .assortment .angel_wing_begonia {
     background: #FBFBFB;
 }
 
-main .container_plants .assortment_2 div {
+main .container_plants .assortment .african_violet {
     background: #FBFBFB;
 }
 
-.blog {
-    width: 1200px;
-    margin: auto;
+main .container_plants .assortment_1 .beach_spider_lily {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_1 .blushing_bromeliad {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_1 .aluminum_plant {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_2 .birds_nest_fern {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_2 .broadleaf_lady_palm {
+    background: #FBFBFB;
+}
+
+main .container_plants .assortment_2 .chinese_evergreen {
+    background: #FBFBFB;
 }
 
 .container_offer {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 136px;
@@ -662,6 +683,8 @@ main .container_offer a:hover svg path {
 }
 
 main .container_blog_posts {
+    max-width: 1200px;
+    margin: auto;
     margin-bottom: 100px;
 }
 
@@ -690,7 +713,27 @@ main .container_blog_posts p {
     justify-content: space-between;
 }
 
-main .container_blog_posts .cards div {
+main .container_blog_posts img{
+    width: 265px;
+    height: 195px;
+}
+
+main .container_blog_posts .card_1 {
+    width: 265px;
+    margin-bottom: 9px;
+}
+
+main .container_blog_posts .card_2 {
+    width: 265px;
+    margin-bottom: 9px;
+}
+
+main .container_blog_posts .card_3 {
+    width: 265px;
+    margin-bottom: 9px;
+}
+
+main .container_blog_posts .card_4 {
     width: 265px;
     margin-bottom: 9px;
 }
@@ -751,6 +794,18 @@ main .container_blog_posts a:hover svg path {
     stroke: #46A358;
 }
 
-main .container_blog_posts .cards div {
+main .container_blog_posts .card_1 {
+    background: #fbfbfb;
+}
+
+main .container_blog_posts .card_2 {
+    background: #fbfbfb;
+}
+
+main .container_blog_posts .card_3 {
+    background: #fbfbfb;
+}
+
+main .container_blog_posts .card_4 {
     background: #fbfbfb;
 }
