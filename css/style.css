@@ -313,7 +313,7 @@ main .shop_now:hover {
     margin-bottom: 26px;
 }
 
-.container_catalog{
+.container_catalog {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -509,38 +509,47 @@ main .container_plants .assortment_2 span {
 
 main .container_plants .assortment .barberton_daisy {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment .angel_wing_begonia {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment .african_violet {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_1 .beach_spider_lily {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_1 .blushing_bromeliad {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_1 .aluminum_plant {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_2 .birds_nest_fern {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_2 .broadleaf_lady_palm {
     background: #FBFBFB;
+    position: relative;
 }
 
 main .container_plants .assortment_2 .chinese_evergreen {
     background: #FBFBFB;
+    position: relative;
 }
 
 .container_offer {
@@ -713,7 +722,7 @@ main .container_blog_posts p {
     justify-content: space-between;
 }
 
-main .container_blog_posts img{
+main .container_blog_posts img {
     width: 265px;
     height: 195px;
 }
@@ -808,4 +817,122 @@ main .container_blog_posts .card_3 {
 
 main .container_blog_posts .card_4 {
     background: #fbfbfb;
+}
+
+.icons {
+    display: flex;
+    gap: 26px;
+    position: absolute;
+    bottom: 50px;
+    left: 68px;
+    opacity: 0;
+}
+
+main .container_plants .assortment .barberton_daisy:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment .angel_wing_begonia:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment .african_violet:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+
+    .discount {
+        opacity: 1;
+    }
+
+    .strikethrough {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_1 .beach_spider_lily:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_1 .blushing_bromeliad:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_1 .aluminum_plant:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_2 .birds_nest_fern:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_2 .broadleaf_lady_palm:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+main .container_plants .assortment_2 .chinese_evergreen:hover {
+    border-top: solid #46a358 1px;
+
+    .icons {
+        opacity: 1;
+    }
+}
+
+.discount {
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 1px;
+    position: absolute;
+    top: 14px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background-color: #46a358;
+    opacity: 0;
+}
+
+.strikethrough {
+    position: absolute;
+    bottom: 0;
+    left: 75px;
+    color: #A5A5A5;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0;
 }
