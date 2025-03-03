@@ -936,3 +936,7 @@ main .container_plants .assortment_2 .chinese_evergreen:hover {
     letter-spacing: 0%;
     opacity: 0;
 }
+
+main .container_plants svg:hover{
+    stroke: #46a358;
+}
