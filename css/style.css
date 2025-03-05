@@ -193,6 +193,7 @@ header nav ul li a {
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
+    position: relative;
 }
 
 header .login {
@@ -225,6 +226,21 @@ header .login:hover svg path {
     stroke: #46A358;
 }
 
+header nav ul li a::before {
+    content: "";
+    display: block;
+    background: #46A358;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    transition: 0.4s;
+}
+
+header nav li a:hover::before {
+    width: 100%;
+}
+
 header nav li a:hover {
     font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
     font-size: 16px;
@@ -233,6 +249,115 @@ header nav li a:hover {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+header nav ul li .dropdown {
+    display: block;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    display: none;
+    padding-top: 40px;
+}
+
+header nav ul li .dropdown a::before {
+    display: none;
+}
+
+header nav ul li .dropdown a {
+    padding: 8px 14px;
+    min-width: 188px;
+    display: inline-block;
+    background-color: #EDF6EE;
+    font-family: Encode Sans Expanded;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    transition: 0.3s;
+    position: relative;
+}
+
+header nav ul li .dropdown a:hover {
+    background-color: #1A712A;
+    color: white;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav li .dropdown li:last-of-type a::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url(../img/arow.svg);
+}
+
+header nav ul li .dropdown a:hover::after {
+    background-image: url(../img/arow_hover.svg);
+    transform: rotate(180deg);
+}
+
+header nav ul li.drop:hover .dropdown {
+    display: block;
+}
+
+header nav ul li .dropdown_1 {
+    display: block;
+    list-style: none;
+    position: absolute;
+    left: 189px;
+    top: -108px;
+    opacity: 0;
+}
+
+header nav li .dropdown_1 li:last-of-type a::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(1) a::after {
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(2) a::after {
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(3) a::after {
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(4) a::after {
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(5) a::after {
+    background-image: none;
+}
+
+header nav li .dropdown_1 li:nth-last-of-type(6) a::after {
+    background-image: none;
+}
+
+header nav ul li .dropdown_1 a:hover::after {
+    background-image: none;
+}
+
+header nav ul li .drop_1:hover .dropdown_1 {
+    opacity: 1;
 }
 
 article {
@@ -392,6 +517,22 @@ main .container_plants ul li a {
     text-decoration-skip-ink: none;
     text-decoration: none;
     color: #3D3D3D;
+    position: relative;
+}
+
+main .container_plants ul a::before {
+    content: "";
+    display: block;
+    background: #46A358;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -7px;
+    transition: 0.4s;
+}
+
+main .container_plants ul a:hover::before {
+    width: 100%;
 }
 
 main .container_plants ul a:hover {
@@ -937,6 +1078,6 @@ main .container_plants .assortment_2 .chinese_evergreen:hover {
     opacity: 0;
 }
 
-main .container_plants svg:hover{
+main .container_plants svg:hover {
     stroke: #46a358;
 }
