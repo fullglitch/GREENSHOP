@@ -1081,3 +1081,227 @@ main .container_plants .assortment_2 .chinese_evergreen:hover {
 main .container_plants svg:hover {
     stroke: #46a358;
 }
+
+.container_background {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container_description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    background: #FBFBFB;
+}
+
+.description {
+    width: 225px;
+}
+
+.description_1 {
+    width: 225px;
+    position: relative;
+}
+
+.border_description {
+    position: absolute;
+    top: 125px;
+    left: -94px;
+    width: 187px;
+    height: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+}
+
+.border_description_1 {
+    position: absolute;
+    top: 125px;
+    left: 159px;
+    width: 187px;
+    height: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    transform: rotate(90deg);
+}
+
+footer .container_description img {
+    margin-bottom: 15px;
+    padding: 24px 0px 0px 25px;
+}
+
+.footer_header {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    margin-bottom: 9px;
+    padding-left: 25px;
+}
+
+.footer_paragraph {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #727272;
+    padding-left: 25px;
+}
+
+.join {
+    width: 380px;
+    margin-left: 62px;
+}
+
+.input_join {
+    padding: 12px 0 12px 11px;
+    width: 354px;
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    color: #ACACAC;
+}
+
+.footer_header_1 {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    margin-bottom: 25px;
+    padding-top: 37px;
+}
+
+.btn_join {
+    padding: 12px 25px 12px 26px;
+    width: 85px;
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    background: #46A358;
+    border-radius: 0 6px 6px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.form_join {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    padding-right: 25px;
+}
+
+.footer_paragraph_1 {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #727272;
+    padding-right: 25px;
+}
+
+.container_gradient {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+    margin-bottom: 33px;
+}
+
+footer .container_gradient a {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    text-decoration: none;
+    margin: 25px 22px 19px 23px;
+    position: relative;
+}
+
+footer .container_gradient a svg {
+    position: absolute;
+    left: -30px;
+}
+
+address {
+    display: block;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+    background: #FBFBFB;
+    padding-bottom: 30px;
+    margin-bottom: 7px;
+    border-bottom: solid rgba(70, 163, 88, 0.2);
+}
+
+footer .container_gradient .address svg {
+    top: 10px;
+}
+
+footer .footer_menu ul li a {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.media {
+    margin-right: 155px;
+}
+
+.footer_header_2 {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    margin-bottom: 20px;
+
+}
+
+footer .footer_menu .media a {
+    text-decoration: none;
+}
+
+.social_media {
+    margin-bottom: 33px;
+}
+
+footer .footer_menu ul li a:hover {
+    color: #46A358;
+}
+
+footer .footer_menu .media svg:hover {
+    fill: #46A358;
+    stroke: #FFFFFF;
+}
+
+.the_end {
+    font-family: 'fontspring_demo_-_cera_proRg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    text-align: center;
+}
