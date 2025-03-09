@@ -427,6 +427,7 @@ article {
     border-radius: 6px;
     padding: 10px 26px;
     margin-left: 2px;
+    transition: 0.5s;
 }
 
 main .shop_now:hover {
@@ -826,10 +827,12 @@ main .container_offer a:hover svg path {
 
 .find_btn {
     margin-right: 30px;
+    transition: 0.5s;
 }
 
 .find_btn_1 {
     margin-right: 30px;
+    transition: 0.5s;
 }
 
 main .container_blog_posts {
@@ -1192,6 +1195,13 @@ footer .container_description img {
     border-radius: 0 6px 6px 0;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn_join:hover {
+    background: rgb(235, 235, 242);
+    background: linear-gradient(90deg, rgba(235, 235, 242, 1) 0%, rgba(234, 234, 242, 1) 35%, rgba(12, 13, 13, 1) 100%);
+    color: #46A358;
 }
 
 .form_join {
@@ -1236,6 +1246,11 @@ footer .container_gradient a svg {
     left: -30px;
 }
 
+footer .container_gradient a:hover {
+    font-family: 'cera_promedium', sans-serif;
+    font-weight: 500;
+}
+
 address {
     display: block;
 }
@@ -1261,7 +1276,7 @@ footer .footer_menu ul li a {
     letter-spacing: 0%;
     color: #3D3D3D;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .media {
@@ -1275,8 +1290,19 @@ footer .footer_menu ul li a {
     line-height: 16px;
     letter-spacing: 0%;
     color: #3D3D3D;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
+    padding-left: 15px;
+}
 
+.footer_header_3 {
+    font-family: 'fontspring_demo_-_cera_proBd', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+    margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 footer .footer_menu .media a {
@@ -1285,6 +1311,13 @@ footer .footer_menu .media a {
 
 .social_media {
     margin-bottom: 33px;
+    display: flex;
+}
+
+footer .footer_menu .social_media ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
 
 footer .footer_menu ul li a:hover {
@@ -1304,4 +1337,8 @@ footer .footer_menu .media svg:hover {
     letter-spacing: 0%;
     color: #3D3D3D;
     text-align: center;
+}
+
+footer .footer_menu .media img {
+    margin-left: 15px;
 }
