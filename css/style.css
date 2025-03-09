@@ -94,7 +94,7 @@
 .btn_registration {
     margin: 41px 0 0 100px;
     padding: 16px 118px 13px 119px;
-    width: 316px;
+    width: 300px;
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
@@ -104,7 +104,7 @@
 }
 
 .section_offer {
-    margin: 36px 0 0 100px;
+    margin: 36px 0 0 95px;
 }
 
 .text_offer {
@@ -120,8 +120,8 @@
 }
 
 .socials {
-    width: 316px;
-    margin: 27px 0 0 100px;
+    width: 310px;
+    margin: 27px 0 0 95px;
     border: 1px solid #EAEAEA;
     border-radius: 5px;
 }
