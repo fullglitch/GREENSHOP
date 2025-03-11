@@ -1,4 +1,13 @@
 @media only screen and (max-width: 420px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+        
+    }
+    
     header nav{
         display: none;
     }
@@ -37,7 +46,6 @@
         max-width: 100%;
         margin-left: 10px;
         margin-right: 10px;
-        background: #fbfbfb;
     }
 
     .sort{
@@ -47,19 +55,22 @@
     .assortment{
         display: block;
         max-width: 100%;
-        margin-left: 17.5%;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .assortment_1{
         display: block;
         max-width: 100%;
-        margin-left: 17.5%;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .assortment_2{
         display: block;
         max-width: 100%;
-        margin-left: 17.5%;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     .container_offer{
@@ -67,7 +78,7 @@
         max-width: 100%;
         margin-left: 10px;
         margin-right: 10px;
-        background: #fbfbfb;
+        background-color: none;
     }
 
     main .container_offer .succulents{
