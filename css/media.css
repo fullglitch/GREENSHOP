@@ -163,12 +163,11 @@
         max-width: 100%;
         position: absolute;
         right: 24%;
-        top: 22px;
+        top: 30px;
     }
 
     .contact{
-        position: absolute;
-        left: 102px;
+        display: none;
     }
 
     .number{
