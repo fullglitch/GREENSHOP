@@ -7,9 +7,9 @@
         display: none;
     }
 
-    * {
+    /* * {
         outline: 1px solid red;
-      }
+      } */
 
     body{
         overflow-x: hidden;
@@ -21,21 +21,15 @@
 
     .container_header{
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .container_main{
         display: block;
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     main .container_main img{
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .container_catalog{
@@ -44,8 +38,6 @@
 
     .container_categories{
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
         margin-bottom: 20px;
     }
 
@@ -109,8 +101,6 @@
 
     main .container_blog_posts{
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     .cards{
@@ -169,7 +159,4 @@
     .footer_menu{
         display: block;
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 }
