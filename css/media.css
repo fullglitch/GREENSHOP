@@ -7,9 +7,9 @@
         display: none;
     }
 
-    /* * {
-        outline: 1px solid red; Підсвітка всіх елементів
-      } */
+    * {
+        outline: 1px solid red;
+      }
 
     body{
         overflow-x: hidden;
@@ -132,7 +132,7 @@
     }
 
     .join{
-        margin: 7.5%;
+        margin: 4%;
     }
 
     .container_gradient{
