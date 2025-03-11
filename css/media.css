@@ -78,13 +78,13 @@
         max-width: 100%;
         margin-left: 10px;
         margin-right: 10px;
-        background-color: none;
     }
 
     main .container_offer .succulents{
         display: block;
         max-width: 100%;
         margin-left: 13%;
+        background-color: #fff;
     }
     
     main .container_offer .succulents .summer{
@@ -95,6 +95,7 @@
         display: block;
         max-width: 100%;
         margin-left: 15%;
+        background-color: #fff;
     }
 
     main .container_offer .trends .Trends{
