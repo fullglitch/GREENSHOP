@@ -14,6 +14,11 @@
     body{
         overflow-x: hidden;
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+      }
     
     header nav{
         display: none;
@@ -21,15 +26,21 @@
 
     .container_header{
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .container_main{
         display: block;
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     main .container_main img{
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .container_catalog{
@@ -38,10 +49,16 @@
 
     .container_categories{
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
     }
 
     .container_plants{
+        max-width: 100%;
+    }
+
+    .navigation{
         max-width: 100%;
     }
 
@@ -101,6 +118,8 @@
 
     main .container_blog_posts{
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .cards{
@@ -126,14 +145,14 @@
     }
 
     .container_gradient{
-        display: block;
+        display: none;
     }
 
     .container_gradient svg{
         opacity: 0;
     }
 
-    .green_shop{
+    /* .green_shop{
         position: absolute;
         left: 25%;
         bottom: 20px;
@@ -149,8 +168,8 @@
 
     .contact{
         position: absolute;
-        left: 25%;
-    }
+        left: 102px;
+    } */
 
     .number{
         opacity: 0;
@@ -159,4 +178,7 @@
     .footer_menu{
         display: block;
         max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
