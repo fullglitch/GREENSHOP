@@ -1,4 +1,8 @@
 @media only screen and (max-width: 420px) {
+    .preloader{
+        display: none;
+    }
+
     body{
         overflow-x: hidden;
         
